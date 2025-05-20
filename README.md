@@ -58,5 +58,16 @@ Nesting Context is not ideal because we'll retrieve more data then we need.
 
 > Relative commit: Create and use Context and Nesting Context in the routes.
 
+## Optimize the Use of Context Mutating it with Hooks
+
+We'll get data conditionally from the Context, we'll create a function that is added to the value of Context and can be invoked from any of the coponents that are nested in this Context.
+In this way we''ll efficiently load only the data that we need.
+
+We'll create that implementing and using life cycles in functional components.
+
+> Relative commit: optimize Nested Context data fetching.
+
+
+
 > [!NOTE]
 > Note ...
