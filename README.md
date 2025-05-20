@@ -53,5 +53,10 @@ We now retrieve data using _useContext_ Hook by passing the _ListsContext_ provi
 
 > Relative commit: Introduce the data retrieving feature made with Context API.
 
+We'll create another Context in the same manner as above and we'll explore the _Nesting Context_ case.
+Nesting Context is not ideal because we'll retrieve more data then we need.
+
+> Relative commit: Create and use Context and Nesting Context in the routes.
+
 > [!NOTE]
 > Note ...
