@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "listId": 1,
+      "title": "Pasta",
+      "quantity": 1,
+      "price": 1.99
+    },
+    { "id": 2, "listId": 1, "title": "Rice", "quantity": 1, "price": 0.99 },
+    {
+      "id": 3,
+      "listId": 2,
+      "title": "Coffee",
+      "quantity": 1,
+      "price": 2.99
+    }
+  ],
+  "lists": [
+    { "id": 1, "title": "Daily Needs" },
+    { "id": 2, "title": "Coffee with friend" }
+  ]
+}
