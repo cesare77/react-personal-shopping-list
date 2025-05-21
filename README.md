@@ -99,5 +99,21 @@ We'll use the _useContext_ Hook as a _Consumer_ to retrieve values from the _Pro
 
 > Relative commit: Create an application Context.
 
+## Splitting code with React Suspense
+_Suspense_ is a React feature that can be used to split code that is to split the compiled code (bundle) into smaller chunks.
+In this way we can prevent the browser from downloading the entire bundle with our compiled code at once, instead we can load bundle in chunks depending on the components that are rendered by the browser.
+
+Suspense must be used together with the lazy method, which involves using JavaScript dynamic imports to load the component only when requested.
+
+In the _App.jsx_ we use _lazy_ method to import components for our pages and in the return statement we wrap _AppContext_ with _Suspense_ that must be used with a fallback that will be displayed when the dyamically inported components are being loaded.
+
+In the end we use _vite-plugin-webpackchunkname_ to add this _Webpack_ feature in vite for chunk naming.
+More on that at: https://www.npmjs.com/package/vite-plugin-webpackchunkname
+
+`npm install --save-dev vite-plugin-webpackchunkname` to install.
+
+> Relative commit: Splitting code with React Suspense.
+
+
 > [!NOTE]
 > Note ...
