@@ -67,6 +67,18 @@ We'll create that implementing and using life cycles in functional components.
 
 > Relative commit: optimize Nested Context data fetching.
 
+## Advanced state management with useReducer
+Another way to add data to the _Provider_ is by using a pattern similar to _Flux_ which is introduced by Facebook.
+We'll implement a central place where data is stored and this data can be read by the view and to do it we''ll use the _useReducer_ Hook that can be used to return data not from a locale state but from any data variable.
+_useReducer_ will take an initial state and a function that determines which data should be returned.
+
+> Todo: resolve this Eslint -> Fast refresh only works when a file only exports components. Move your React context(s) to a separate file.eslint(react-refresh/only-export-components).
+
+All of the data in your application is now being loaded using the _Providers_, which means it's now detached from the views. Also, the _useDataFetching_ Hook is completely removed, making your application structure more readable.
+Not only can you use the context API with this pattern (Flux) to make data available to many components, but you can also mutate the data.
+
+> Relative commit: Advanced state management with useReducer + Flux Pattern.
+
 
 
 > [!NOTE]
