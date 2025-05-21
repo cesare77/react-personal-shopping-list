@@ -79,7 +79,18 @@ Not only can you use the context API with this pattern (Flux) to make data avail
 
 > Relative commit: Advanced state management with useReducer + Flux Pattern.
 
+## Mutating data in the Provider
+_Flux_ Pattern cam be used not only to retrieve data but also to mutate data.
+The behaviour remain the same, we _dispatch_ an action that would trigger the request to the server and, based on the outcome, the _reducer_ will utate the data with this result.
 
+Now we implement the operation to add item by updating the Provider for _items_.
+The current implementation only mutate data in the Provider and it's not modufy the data (items) in the json server.
+
+> Todo Extra: Find and Implement the operation to mutate data also in json-server file db.json.
+
+> Todo Extra: Implement all _CRUD_ Operations for the application.
+
+> Relative commit: Mutating data in the Provider.
 
 > [!NOTE]
 > Note ...
