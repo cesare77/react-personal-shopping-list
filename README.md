@@ -92,5 +92,12 @@ The current implementation only mutate data in the Provider and it's not modufy 
 
 > Relative commit: Mutating data in the Provider.
 
+## Create an application Context
+Now we have more Providers and Consumers in the application we have for example _ListsContextProvider_ and _ItemsContextProvider_ that wrap all the application _routes_.
+We want to create an Application Context in similar way like some state management packages like _Redux_.
+We'll use the _useContext_ Hook as a _Consumer_ to retrieve values from the _Provider_ of the _Context_ that was passed to it that is _ListsContextProvider_ and _ItemsContextProvider_.
+
+> Relative commit: Create an application Context.
+
 > [!NOTE]
 > Note ...
