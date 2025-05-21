@@ -114,6 +114,11 @@ More on that at: https://www.npmjs.com/package/vite-plugin-webpackchunkname
 
 > Relative commit: Splitting code with React Suspense.
 
+Further read at:
+- https://react.dev/learn/managing-state
+- https://react.dev/reference/react/useContext
+- https://react.dev/reference/react/Suspense
+
 
 > [!NOTE]
 > Note ...
